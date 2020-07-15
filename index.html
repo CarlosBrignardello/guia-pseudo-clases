@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles.css">
+    <title>PSEUDOCLASES</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Pseudoclases</h1>
+        <p>Estilos especiales dependiendo del contexto, posición o estado.</p>
+    </header>
+    
+    <main class="main">
+        <article>
+            <h2>:root</h2>
+            <p>La pseudo-clase de CSS :root selecciona el elemento raíz de un documento.</p>
+        </article>
+        
+        <article>
+            <h2>:hover</h2>
+            <p>La pseudo-clase de CSS :hover se presenta cuando el usuario coloca el punto sobre algún elemento.</p>
+        </article>
+        
+        <article>
+            <h2>:active</h2>
+            <p>Cubre el caso en el que un elemento está siendo activado por el usuario. Cuando se interactúa con el ratón, se corresponde al momento en el que el usuario presiona el botón del ratón hasta el momento en el que lo suelta.</p>
+            <ol>
+                <li>
+                    :link
+                </li>
+                <li>
+                    :visited
+                </li>
+                <li>
+                    :hover
+                </li>
+                <li>
+                    :active
+                </li>
+            </ol>
+        </article>
+
+        <article>
+            <h2>:target</h2>
+            <p>Representa el elemento único, si existe alguno, con un id coincidente con el identificador.</p>
+            <p>
+                <a href="#modal">Modal con CSS</a>
+            </p>
+            <div id="modal" class="modal">
+                <aside class="modal-box">
+                    <h2>Modal with CSS</h2>
+                    <form>
+                        <input type="email" placeholder="email">
+                        <input type="password" placeholder="password">
+                        <input type="submit">
+                    </form>
+                    <a href="#">CERRAR</a>
+                </aside>
+            </div>
+        </article>
+
+        <article>
+            <h2>:nth-child :first-child :last-child</h2>
+            <ul>
+                <li>
+                    <p>:nth-child: selecciona el elemento indicado que sea el enésimo hijo de su elemento padre.</p>
+                </li>
+                <li>
+                    <p>:first-child: selecciona el elemento indicado que sea el primer hijo de su elemento padre.</p>
+                </li>
+                <li>
+                    <p>:last-child: selecciona el elemento indicado que sea el último hijo de su elemento padre.</p>
+                </li>
+            </ul>
+
+        </article>
+        
+        <article>
+            <h2>:nth-of-type :nth-first-of-type :nth-last-of-type</h2>
+            <ul>
+                <li>
+                    <p>:nth-of-type: selecciona el elemento indicado que sea el enésimo hijo en su tipo sin importar la jerarquía dentro del elemento padre.</p>
+                </li>
+                <li>
+                    <p>:first-of-type: selecciona el elemento indicando que sea el primer hijo en su tipo sin importar la jerarquía dentro del elemento padre.</p>
+                </li>
+                <li>
+                    <p>:last-of-type: selecciona el elemento indicando que sea el último hijo en su tipo sin importar la jerarquía dentro del elemento padre.</p>
+                </li>
+            </ul>
+            <a href="https://css-tricks.com/examples/nth-child-tester/">:nth TESTER</a>
+        </article>
+
+        <article>
+            <h2>:not</h2>
+            <p>Nos premite negar un estilo aplicado al elemento indicado.</p>
+        </article>
+
+        <article>
+            <h2>:empty</h2>
+            <p>Nos permite aplicar los estilos a cualquier elemento que este vacío.</p>
+        </article>
+    
+    </main>
+    <br>
+<a href="../7.TEXTOS/index.html">#7 Textos</a>
+<a href="../9.PSEUDOELEMENTOS/index.html">#9 PseudoElementos</a>
+</body>
+</html>
